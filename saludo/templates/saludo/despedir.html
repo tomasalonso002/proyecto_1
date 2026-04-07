@@ -1,0 +1,19 @@
+{% extends "saludo/base.html" %}
+
+{%block tittle %}
+Despedida
+{% endblock %}
+{% block body %}
+        <p> chauuu {{nombre}}
+            {% if esMayor %}
+                <h1>Es mayor</h1>
+            {% else %}
+                <H1>Es menor</H1>
+            {% endif %}
+        </p>
+        <ul>
+            {% for mascota in mascotas %}
+                <li>{{ mascota }}</li>
+            {% endfor %}
+        </ul>
+{%endblock%}

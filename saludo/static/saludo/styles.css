@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(62, 165, 179);
+}
+li{
+    background-color: rgb(47, 75, 94);
+    color: white;
+}
+h1{
+    color: red;
+}
+
+a{
+    font-size: 30px;
+}

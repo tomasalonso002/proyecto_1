@@ -1,0 +1,14 @@
+{%  extends "saludo/base.html"%}
+
+{% blok body %}
+<H1> CREAR TAREA</H1>
+
+<form method="post">
+    
+    {% csrf_token %}
+    {{ form.as_p}}
+    
+    
+    <button type="submit">Enviar</button>
+</form>
+{% endbody %}
